@@ -9,7 +9,8 @@ function tampilRekomendasi(dicobaPengguna){
 //menghapus segala div yang ada
     hapusDiv();
     //membuat segala div
-    buatDiv();}
+    buatDiv();
+    }
     
 printDataAsli();
 ////document.getElementById("matriksRekomendasi").style.visibility="visible";
@@ -45,9 +46,15 @@ function dummyInput(){
 prosesSlider1(6);
 prosesSlider2(4);
 prosesSlider3(2);
-prosesSlider4(6);
-prosesSlider5(4);
-prosesSlider6(6);}
+prosesSlider4(2);
+prosesSlider5(6);
+prosesSlider6(4);
+prosesSlider7(4);
+prosesSlider8(6);
+prosesSlider9(6);
+prosesSlider10(6);
+    printDataAsli();
+}
 
 //logika remove DIV
 Element.prototype.remove = function() {
